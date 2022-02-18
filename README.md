@@ -1,2 +1,6 @@
+
 # Sudden-Approximation
-Sudden Approximation for the Particle in a Box
+
+Sudden Approximation for the Particle in a Box. 
+
+![](sudden.gif)
