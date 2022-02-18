@@ -3,7 +3,7 @@ import os
 path = os.getcwd()
 fname='SuddenPinBox.py'
 
-os.system('jupyter nbconvert --to script SuddenPinBoxipynb')
+os.system('jupyter nbconvert --to script SuddenPinBox.ipynb')
 
 with open(fname, 'r') as f:
     lines = f.readlines()
