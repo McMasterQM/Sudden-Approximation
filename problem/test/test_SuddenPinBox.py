@@ -48,8 +48,6 @@ def test_compute_amplitude_analytic():
     n0 = np.random.randint(100, size=10)
     a = np.random.rand(20) * 10
     b = np.random.rand(20) * 20
-    x =
-    t =
 
     answer = []
     for n_, m_, a_, b_ in zip(n0, m, a, b):
