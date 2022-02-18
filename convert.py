@@ -11,7 +11,7 @@ with open(os.path.join(path, 'problem', fname), 'w') as f:
     for line in lines:
         if "get_ipython()" in line:
             continue
-        elif 'nbconvert --to script' in line:
+        elif 'nbconvert --to script' in line or "from IPython import display" in line:
             break
         else:
             f.write(line)
