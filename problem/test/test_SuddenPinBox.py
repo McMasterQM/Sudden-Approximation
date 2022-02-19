@@ -44,8 +44,9 @@ def test_compute_amplitude_numerical():
     assert_allclose(answer, true_answer)
 
 def test_compute_amplitude_analytic():
-    np.random.seed(2)
+    np.random.seed(4)
     n0 = np.random.randint(100, size=10)
+    m = np.random.randint(100, size=20)[-10:]
     a = np.random.rand(20) * 10
     b = np.random.rand(20) * 20
 
